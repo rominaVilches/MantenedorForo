@@ -1,0 +1,287 @@
+body{
+	margin: 0;
+}
+
+.menu{
+	background-color: #C8C7C7;
+	padding: 10px;
+}
+
+.links{
+	text-align: right;
+	display: inline;
+}
+
+.linkMenuNombre{
+	font-size: 20px;
+	font-family: Avenir Medium;
+	float: right;
+	margin: 8px 20px;
+	text-decoration: none;
+}
+
+.linkMenuAdminNombre{
+	font-size: 20px;
+	font-family: Avenir Medium;
+	color: #444343;
+	float: right;
+	margin: 8px 20px;
+	text-decoration: none;
+}
+
+.linkMenu{
+	font-size: 20px;
+	font-family: Avenir Medium;
+	float: right;
+	margin: 3px 15px;
+	text-decoration: none;
+	border: solid 2px #4D4C4C;
+	padding: 2px 10px;
+	border-radius: 5px;
+	background-color: rgb(230, 228, 228);
+	color: #444343;
+}
+
+.linkMenuAdmin{
+	font-size: 20px;
+	font-family: Avenir Medium;
+	float: right;
+	margin: 3px 15px;
+	text-decoration: none;
+	border: solid 2px #4D4C4C;
+	padding: 2px 10px;
+	border-radius: 5px;
+	background-color: rgb(230, 228, 228);
+	color: #444343;
+}
+
+.linkMenuAdmin:hover{
+	background-color: #4D4C4C;
+	color: #fff;
+}
+
+.linkMenu:hover{
+	background-color: #4D4C4C;
+	color: #fff;
+}
+
+.linkEliminar{
+	width: 100px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	display: block;
+	margin: 5px auto;
+	background-color: rgb(185, 185, 185);
+	color: #000;
+	font-family: Avenir Medium;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.linkEliminar:hover{
+	background-color: #4D4C4C;
+	color: #fff;
+}
+
+
+header{
+	font-size: 30px;
+	font-family: Avenir Medium;
+	text-align: left;
+	display: inline;
+	margin-left: 1em;
+}
+
+.textMenu{
+	text-decoration: none;
+	color: #000;
+}
+
+.textMenu:hover{
+	color: #636161;
+}
+
+table,td,th{ 
+	border: 1px solid rgba(121, 117, 117, 0.719); 
+}
+
+table{ 
+	border-collapse: collapse; 
+	margin: 4em auto; 
+	font-family: Avenir Medium;
+	width: 70%;
+}
+
+td, th{
+	width: 100px; 
+	height: 35px; 
+	padding: 15px;;
+}
+
+#col1{
+	width: 20%;
+	text-align: center;
+}
+
+#form1{
+	display: block;
+	margin: 30px auto;
+	background-color: #C8C7C7;
+	width: 300px;
+	padding: 20px;
+	border-radius: 10px;
+	font-family: Avenir Medium;
+}
+
+#form2{
+	display: block;
+	margin: 30px auto;
+	background-color: #C8C7C7;
+	width: 455px;
+	padding: 20px;
+	border-radius: 10px;
+	font-family: Avenir Medium;
+}
+
+.label{
+	font-size: 18px;
+	display: inline-block;
+	width: 100px;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+.label2{
+	font-size: 18px;
+	display: inline-block;
+	width: 150px;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+.d{
+	margin-bottom: 10px;
+}
+
+#btnIngresar{
+	width: 100px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	display: block;
+	margin-left: 100px;
+	background-color: #fff;
+	font-family: Avenir Medium;
+	font-size: 14px;
+}
+
+.btn{
+	margin: 5px auto;
+	text-align: center;
+}
+
+.botones{
+	width: 100px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	background-color: #fff;
+	font-family: Avenir Medium;
+	font-size: 14px;
+}
+
+#btnIngresar:hover{
+	background-color: #4D4C4C;
+	color: #fff;
+}
+
+.botones:hover{
+	background-color: #4D4C4C;
+	color: #fff;
+}
+
+#btnPublicar{
+	width: 100px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	display: block;
+	margin: 5px auto;
+	background-color: rgb(185, 185, 185);
+	font-family: Avenir Medium;
+	font-size: 14px;
+}
+
+#btnPublicar:hover{
+	background-color: #4D4C4C;
+	color: #fff;
+}
+
+h2{
+	text-align: center;
+	font-family: Avenir Medium;
+}
+
+span{
+	margin: 7px auto;
+	display: block;
+	width: 350px;
+	text-align: center;
+	font-family: Avenir Medium;
+}
+
+.tablaMant{
+	text-align: center;
+}
+
+.linkActivo{
+	display: block;
+	text-align: center;
+	border: solid 2px rgb(61, 61, 61);
+	border-radius: 3px;
+	margin: 1px auto;
+	width: 6em;
+	color: #fff;
+	background-color: rgb(61, 61, 61);
+	text-decoration: none;
+	padding: 2px;
+}
+
+.linkActivo:hover{
+	color: #000;
+	background-color: rgb(175, 175, 175);
+}
+.spanActivo{
+	width: 50%;
+}
+
+#tabMant{
+	width: 60%;
+}
+
+textarea{
+	width: 95%;
+	height: 80px;
+	display: block;
+	margin: 10px auto;
+	border: inset 2px rgb(71, 71, 71);
+	background-color: rgb(236, 236, 236);
+	font-family: Avenir Medium;
+	font-size: 16px;
+}
+
+thead{
+	background-color: #C8C7C7;
+}
+
+.textoError{
+	font-size: 12px;
+}
+
+footer{
+	background-color: #C8C7C7;
+	margin: 0;
+	padding: 10px;
+}
+
+@font-face{
+	font-family: 'Avenir Medium';
+	src: url(fonts/AvenirMedium.ttf); 
+}

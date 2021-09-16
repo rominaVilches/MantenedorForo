@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-sacale=1.0">
+	<title>Registro Usuarios</title>
+	<link rel="stylesheet" href="css/estilo.css" />
+	<script src="js/validacion.js" ></script>
+</head>
+<body>
+	<div class="menu">
+		<header>Foro Abierto</header>
+	</div>
+	<form name="form2" id="form2" method="post" action="registro.php" enctype="multipart/form-data" onSubmit="return validaRegistro();">
+		<h2>Formulario de Registro</h2>
+		<div class="d">
+			<label class="label2" for="usuario">Usuario:</label>
+			<input type="text" name="usuario" id="usuario" onBlur="obligatorioLogin('usuario','errorUsuario');"/>
+			<span id="errorUsuario" class="textoError"></span>
+		</div>
+		<div class="d">
+			<label class="label2" for="clave">Clave:</label>
+			<input type="text" name="clave" id="clave" onBlur="obligatorioLogin('clave','errorClave');"/>
+			<span id="errorClave" class="textoError"></span>
+		</div>
+		<div class="d">
+			<label class="label2" for="nombre">Nombre:</label>
+			<input type="text" name="nombre" id="nombre" onBlur="obligatorioLogin('nombre','errorNombre');"/>
+			<span id="errorNombre" class="textoError"></span>
+		</div>
+		<div class="d">
+			<label class="label2" for="apellido">Apellido:</label>
+			<input type="text" name="apellido" id="apellido" onBlur="obligatorioLogin('apellido','errorApellido');"/>
+			<span id="errorApellido" class="textoError"></span>
+		</div>
+		<div class="d">
+		    <label class="label2" for="imagen">Imagen:</label>
+			<input type="file" name="imagen" id="imagen" onBlur="obligatorioLogin('imagen','errorImagen');"/>
+			<span id="errorImagen" class="textoError"></span>
+		</div>
+		<div class="d">
+			<label class="label2" for="nacionalidad">Nacionalidad:</label>
+			<input type="text" name="nacionalidad" id="nacionalidad" onBlur="obligatorioLogin('nacionalidad','errorNacionalidad');"/>
+			<span id="errorNacionalidad" class="textoError"></span>
+		</div>
+		<div class="btn">
+			<input type="button" onclick="history.back()" name="volver" class="botones" value="Volver">
+			<input type="reset" name="btnCancelar" id="btnCancelar" class="botones" value="Cancelar">
+			<input type="submit" name="btnGuardar" id="btnGuardar" class="botones" value="Guardar">
+			
+		</div>
+	</form>
+	<footer>
+		<span> Romina Vilches Sección - 348 </span>
+	</footer>
+</body>
+</html>
